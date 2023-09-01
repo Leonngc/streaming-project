@@ -1,0 +1,27 @@
+//CDN Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+// CORES
+
+$yellow-amber: #ffc107;
+$eerie-black: #212121;
+$white: #fff;
+$pigment-green: #4CAF50;
+$giants-orange: #FF5722;
+
+// Fonts
+.roboto{ Roboto, 'sans-serif';}
+$font-small: .8rem;
+$font-base: 1rem;
+$font-title: 1.5rem;
+
+// Tamanhos
+
+// Widths 
+$small-container: 10vw;
+$midle-container: 50vw;
+$max-container: 100vw;
+
+// heights
+$small-height: 30vh;
+$midle-height: 50vh;
+$max-height:100vh;

@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFC107;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212121;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.navbar button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #FF5722;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right:0;
+  margin:0;
+  padding:10px;
+  background-color:#4CAF50; 
+   color:#FFFFFF; 
+   font-family: Arial, sans-serif; 
+   font-size:24px; 
+}
+</style>
+</head>
+<body>
+<div class="logo">STREAMING</div>
+<div class="navbar">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Filmes</a></li>
+<li><a href="#">Séries</a></li>
+<li><a href="#">Documentários</a></li>
+<li><a href="#">Animações</a></li>
+</ul>
+<button>Assine já</button>
+</div>
+<div class="main">
+<div class="card">
+<img src="https://i.imgur.com/8QZwQ6y.jpg" alt="Avatar">
+<h3>Avatar</h3>
+</div>
+<div class="card">
+<img src="https://i.imgur.com/9ZbX7rE.jpg" alt="Harry Potter">
+<h3>Harry Potter</h3>
+</div>
+<div class="card">
+<img src="https://i.imgur.com/7Z6gYmO.jpg" alt="Game of Thrones">
+<h3>Game of Thrones</h3>
+</div>
+<div class="card">
+<img src="https://i.imgur.com/6JZfX4y.jpg" alt="Planet Earth">
+<h3>Planet Earth</h3>
+</div>
+</div>
+</body>
+</html>
