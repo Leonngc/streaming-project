@@ -1,0 +1,41 @@
+//Flexbox
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center{justify-content: center;}
+.justify-space-around{justify-content: space-around;}
+.justify-space-between{justify-content: space-between;}
+.justify-space-evenly{justify-content: space-evenly;}
+.justify-left{justify-content: left;}
+.justify-right{justify-content: right;}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.block {
+  display: block;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+//Margins
+
+.m{
+  margin: 10%;
+}
+
+.m-5{
+  margin: 5;
+}

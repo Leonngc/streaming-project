@@ -1,0 +1,58 @@
+//Flexbox
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center{justify-content: center;}
+.justify-space-around{justify-content: space-around;}
+.justify-space-between{justify-content: space-between;}
+.justify-space-evenly{justify-content: space-evenly;}
+.justify-left{justify-content: left;}
+.justify-right{justify-content: right;}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.block {
+  display: block;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+//Margins
+
+.m{margin: 2rem;}
+
+.m-5{margin: 5rem;}
+
+.m-6{margin: 6rem;}
+
+.m-7{margin: 7rem;}
+
+.m-8{margin: 8rem;}
+
+.m-9{margin: 9rem;}
+
+.m-10{margin: 10rem;}
+
+.m-11{margin: 11rem;}
+
+.m-12{margin: 12rem;}
+
+.m-auto{margin: auto;}
+
+.ml{}
+// Paddings
+
+.p{padding: 1rem;}

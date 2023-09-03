@@ -1,0 +1,29 @@
+//Flexbox
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center{justify-content: center;}
+.justify-space-around{justify-content: space-around;}
+.justify
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.block {
+  display: block;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
